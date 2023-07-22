@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background: none repeat scroll 0 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+#tacking_area{
+    width: 100%;
+    clear: both;
+    padding: 45px 0;
+}
+
+.inner_tracking{
+    width: 98%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inner_tracking h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.inner_tracking.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+@media (max-width:640px) {
+    .inner_tracking.main {
+        flex-direction: column;
+    }
+}
+
+.child_tracking{
+    background-color: aqua;
+    width: 25%;
+    height: 200px;
+    padding: 1.5rem;
+    margin: 3% 10PX;
+    border-radius: 23PX;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: black 1.25vh 1.25vw 5px;
+}
+.child_tracking:nth-child(1){
+    background-color: rgb(240, 148, 131);
+}
+
+.child_tracking:nth-child(2){
+    background-color: rgb(213, 149, 204);
+}
+
+.child_tracking:nth-child(3){
+    background-color: rgb(161, 167, 231);
+}
+
+.child_tracking i{
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.child_tracking h5{
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    line-height: 1.5em;
+
+}
+.child_tracking p{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+
+}
